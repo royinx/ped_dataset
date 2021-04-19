@@ -1,0 +1,2 @@
+docker run --rm -dit --name notebook -p 20080:3344 -v /dataset:/dataset -w /dataset/COCO --user root jupyter/scipy-notebook:17aba6048f44 jupyter notebook --ip=0.0.0.0 --port 3344 --allow-root 
+docker logs notebook
