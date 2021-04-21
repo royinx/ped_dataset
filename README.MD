@@ -2,6 +2,7 @@
 ### Directory configuration 
 ```
 .
+dataset/
 ├── caltech-pascal-voc-converter
 │   ├── caltech-parser
 │   ├── converter
@@ -45,7 +46,9 @@
 │   ├── downloaded_images
 │   ├── result
 │   │   ├── Annotations
-│   │   └── images
+│   │   ├── images
+│   │   ├── neg
+│   │   └── neg_img
 │   └── train2017
 └── lost+found [error opening dir]
 ```
